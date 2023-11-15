@@ -1,8 +1,8 @@
 defmodule Statix.Mixfile do
   use Mix.Project
 
-  @version "1.4.0"
-  @source_url "https://github.com/lexmag/statix"
+  @version "1.5.0"
+  @source_url "https://github.com/cabify/statix"
 
   def project() do
     [
@@ -31,9 +31,10 @@ defmodule Statix.Mixfile do
 
   defp package() do
     [
-      maintainers: ["Aleksei Magusev", "Andrea Leopardi"],
+      maintainers: ["Cabify"],
       licenses: ["ISC"],
-      links: %{"GitHub" => @source_url}
+      links: %{"GitHub" => @source_url},
+      name: :cabify_statix
     ]
   end
 
