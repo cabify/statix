@@ -1,5 +1,8 @@
 # Changelog
 
+## v1.5.0
+
+* Add support for OTP 26 and Elixir 1.15.
 * Fixed prefix building when connect options provided.
 
 ## v1.4.0

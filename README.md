@@ -1,7 +1,12 @@
 # Statix
 
-[![Build Status](https://travis-ci.com/lexmag/statix.svg?branch=master)](https://travis-ci.com/lexmag/statix)
-[![Hex Version](https://img.shields.io/hexpm/v/statix.svg "Hex Version")](https://hex.pm/packages/statix)
+[![Hex Version](https://img.shields.io/hexpm/v/statix.svg "Hex Version")](https://hex.pm/packages/cabify_statix)
+
+## Disclaimer
+
+This is a fork of [Statix](https://github.com/lexmag/statix) intended to be a temporal handover while the owner is not available. See this [issue for more info](https://github.com/lexmag/statix/pull/72#issuecomment-1805879985).
+
+___
 
 Statix is an Elixir client for StatsD-compatible servers.
 It is focused on speed without sacrificing simplicity, completeness, or correctness.
@@ -34,7 +39,7 @@ What makes Statix the fastest library around:
 
 </details>
 
-See [the documentation](https://hexdocs.pm/statix) for detailed usage information.
+See [the documentation](https://hexdocs.pm/cabify_statix) for detailed usage information.
 
 ## Installation
 
@@ -42,7 +47,7 @@ Add Statix as a dependency to your `mix.exs` file:
 
 ```elixir
 defp deps() do
-  [{:statix, ">= 0.0.0"}]
+  [{:cabify_statix, "~> 1.5"}]
 end
 ```
 
